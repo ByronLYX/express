@@ -10,6 +10,7 @@ var app = express();
 
 app.use(AV.express());
 
+app.use(express.static(__dirname + "/static"));
 app.get("/", function(req, res){
     res.end("123");
 })
