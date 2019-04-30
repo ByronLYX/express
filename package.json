@@ -1,18 +1,14 @@
 {
-  "name": "express",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "name": "node-js-getting-started",
   "scripts": {
-    "start": "node server.js"
+      "start": "node server.js"
   },
   "engines": {
-    "node": "8.x",
-    "npm" : "6.x"
+      "node": "8.x"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+      "express": "4.12.3",
+      "leanengine": "^3.0.2",
+      "leancloud-storage": "^3.3.1"
   }
 }
